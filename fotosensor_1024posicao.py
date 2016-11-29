@@ -1,5 +1,5 @@
 def velocidade(n):
-    tempo = ((n/1000)/3600)
+    tempo = ((n/1000.00)/3600.00)
     v = int(0.004/tempo)
     return str(v)
 
